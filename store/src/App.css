@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+
+body {
+  margin: 0;
+  font-family: 'Source Sans Pro', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.App {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.search {
+  background-color: purple;
+  border: 1px solid;
+  border-radius: 5px;
+  min-height: 95vh;
+  min-width: 25vw;
+  margin: 10px;
+  color: white;
+}
+
+.listing {
+  background-color: purple;
+  border: 1px solid;
+  border-radius: 5px;
+  min-height: 95vh;
+  min-width: 50vw;
+  margin: 10px;
+  color: white;
+}
+
+.desc {
+  background-color: purple;
+  border: 1px solid;
+  border-radius: 5px;
+  min-height: 95vh;
+  min-width: 20vw;
+  margin: 10px;
+  color: white;
+}
+
+h1 {
+  border: 1px solid;
+  border-radius: 5px;
+  margin: 15px;
+
+}
